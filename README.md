@@ -70,6 +70,11 @@ Data is stored in a Pandas DataFrame and exported to a CSV file (**FPT_raw_data.
 - The analysis does not include the **Relative Strength Index (RSI)** due to missing code in the provided notebook. Consider adding RSI for overbought/oversold signals.
 - External factors (e.g., financial reports, market news) are not directly incorporated but are recommended for comprehensive analysis.
 
+## KNN-Based Price Prediction (Optional Enhancement)
+- To explore the predictive potential of machine learning in financial analysis, the K-Nearest Neighbors (KNN) algorithm was applied to forecast the next-day closing price of FPT.VN. The model used features such as current closing price, 20-day SMA, 20-day EMA, and calculated RSI (if available) to identify similar historical patterns and estimate future prices based on the average outcome of the closest neighbors.
+
+- Although KNN is a relatively simple model, it provides a useful baseline and performs reasonably well for short-term predictions in stable market conditions. This implementation demonstrates the integration of information technology and machine learning into stock analysis, and lays the foundation for future adoption of more complex models.
+
 ## Future Improvements
 
 - Add more technical indicators, such as **RSI**, **MACD**, or **Bollinger Bands**, to enhance trend and volatility analysis.
