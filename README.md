@@ -66,7 +66,7 @@ Data is stored in a Pandas DataFrame and exported to a CSV file (**FPT_raw_data.
 
 ## Limitations
 
-- The dataset only covers data up to **May 30, 2025**. For real-time analysis beyond this date, update the `end_date` in the `stock_historical_data` function to **2025-06-20** or later.
+- The dataset only covers data up to **May 30, 2025**. For real-time analysis beyond this date, update the `end_date` in the `stock_historical_data` function to **2025-06** or later.
 - The analysis does not include the **Relative Strength Index (RSI)** due to missing code in the provided notebook. Consider adding RSI for overbought/oversold signals.
 - External factors (e.g., financial reports, market news) are not directly incorporated but are recommended for comprehensive analysis.
 
